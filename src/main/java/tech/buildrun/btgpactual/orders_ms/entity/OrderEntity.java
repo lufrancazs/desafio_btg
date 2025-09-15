@@ -54,4 +54,8 @@ public class OrderEntity {
     public void setTotal(BigDecimal total) {
         this.total = total;
     }
+
+    public void setItems(List<OrderItem> items) {
+        this.items = items;
+    }
 }
